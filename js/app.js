@@ -11,3 +11,11 @@ three.addEventListener('click', threeHandle);
 function oneHandle() {
   console.log('clicked!');
 }
+
+function twoHandle() {
+  console.log('clicked!');
+}
+
+function threeHandle() {
+  console.log('clicked!');
+}
