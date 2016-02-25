@@ -39,18 +39,17 @@ function displayImage() {
 displayImage();
 
 
-one.addEventListener('click', oneHandle);
-two.addEventListener('click', twoHandle);
-three.addEventListener('click', threeHandle);
+one.addEventListener('click', function() {
+  clicker(allProducts[randomize1])
+});
 
-function oneHandle() {
-  console.log('clicked!');
-}
+two.addEventListener('click', function() {
+  clicker(allProducts[randomize2])
+});
+three.addEventListener('click', function() {
+  clicker(allProducts[randomize3])
+});
 
-function twoHandle() {
-  console.log('clicked!');
-}
-
-function threeHandle() {
-  console.log('clicked!');
+function clicker() {
+  displayImage();
 }
