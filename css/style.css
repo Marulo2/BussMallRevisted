@@ -1,8 +1,38 @@
 .headStyle {
-
+  text-align: center;
+  background-color: black;
 }
 
 .mainStyle {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10vw;
+}
+
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+img {
+  width: 20vw;
+  height: 20vw;
+}
+
+[id='1'] {
+  border: 1px solid black;
+}
+
+[id='2'] {
+  border: 1px solid black;
+}
+
+[id='3'] {
+  border: 1px solid black;
 }
